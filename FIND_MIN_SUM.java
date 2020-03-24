@@ -9,9 +9,9 @@ public class FIND_MIN_SUM
         for(int i=0;i<n;i++)
         {
             if(i % 2 !=0)
-            a=a * 10 + arr[i];
+            a = a * 10 + arr[i];
             else
-            b=b * 10 + arr[i];
+            b = b * 10 + arr[i];
         }
         System.out.println(a+"  "+b);
         return a+b;
